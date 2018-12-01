@@ -4,4 +4,5 @@
   (lib (name 74xx1)(type Legacy)(uri "/Library/Application Support/kicad/library/74xx.lib")(options "")(descr ""))
   (lib (name audio)(type Legacy)(uri "/Library/Application Support/kicad/library/audio.lib")(options "")(descr ""))
   (lib (name interface)(type Legacy)(uri "/Library/Application Support/kicad/library/interface.lib")(options "")(descr ""))
+  (lib (name core-rescue)(type Legacy)(uri ${KIPRJMOD}/core-rescue.lib)(options "")(descr ""))
 )

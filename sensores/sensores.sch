@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_Proximity:CNY70 U1
+L sensores-rescue:CNY70-Sensor_Proximity U1
 U 1 1 5BEFF17C
 P 2500 2750
 F 0 "U1" H 2500 3067 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 2500 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Proximity:CNY70 U2
+L sensores-rescue:CNY70-Sensor_Proximity U2
 U 1 1 5BEFF1E8
 P 2500 3950
 F 0 "U2" H 2500 4267 50  0000 C CNN
@@ -37,7 +37,7 @@ F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 2500 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Proximity:CNY70 U3
+L sensores-rescue:CNY70-Sensor_Proximity U3
 U 1 1 5BEFF251
 P 4000 2750
 F 0 "U3" H 4000 3067 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 4000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Proximity:CNY70 U4
+L sensores-rescue:CNY70-Sensor_Proximity U4
 U 1 1 5BEFF2A8
 P 4000 3950
 F 0 "U4" H 4000 4267 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 4000 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Proximity:CNY70 U5
+L sensores-rescue:CNY70-Sensor_Proximity U5
 U 1 1 5BEFF46A
 P 5450 2750
 F 0 "U5" H 5450 3067 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 5450 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Sensor_Proximity:CNY70 U6
+L sensores-rescue:CNY70-Sensor_Proximity U6
 U 1 1 5BEFF4E5
 P 5450 3950
 F 0 "U6" H 5450 4267 50  0000 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 2150 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R5
+L sensores-rescue:R_Small-Device R5
 U 1 1 5BEFFC2F
 P 4350 3650
 F 0 "R5" H 4409 3696 50  0000 L CNN
@@ -103,7 +103,7 @@ F 3 "~" H 4350 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R9
+L sensores-rescue:R_Small-Device R9
 U 1 1 5BEFFEB6
 P 5800 3650
 F 0 "R9" H 5859 3696 50  0000 L CNN
@@ -114,7 +114,7 @@ F 3 "~" H 5800 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R3
+L sensores-rescue:R_Small-Device R3
 U 1 1 5BF00134
 P 2900 2450
 F 0 "R3" H 2959 2496 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "~" H 2900 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R6
+L sensores-rescue:R_Small-Device R6
 U 1 1 5BF00244
 P 4400 2450
 F 0 "R6" H 4459 2496 50  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "~" H 4400 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R8
+L sensores-rescue:R_Small-Device R8
 U 1 1 5BF00499
 P 5800 2450
 F 0 "R8" H 5859 2496 50  0000 L CNN
@@ -147,7 +147,7 @@ F 3 "~" H 5800 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R2
+L sensores-rescue:R_Small-Device R2
 U 1 1 5BF00725
 P 2850 3650
 F 0 "R2" H 2909 3696 50  0000 L CNN
@@ -459,7 +459,7 @@ Connection ~ 4350 3850
 Wire Wire Line
 	2150 2850 2150 3250
 $Comp
-L Device:R_Small R1
+L sensores-rescue:R_Small-Device R1
 U 1 1 5BF17DCF
 P 2150 3350
 F 0 "R1" H 2209 3396 50  0000 L CNN
@@ -472,7 +472,7 @@ $EndComp
 Wire Wire Line
 	2150 3450 2150 3850
 $Comp
-L Device:R_Small R4
+L sensores-rescue:R_Small-Device R4
 U 1 1 5BF1945C
 P 3600 3350
 F 0 "R4" H 3659 3396 50  0000 L CNN
@@ -501,7 +501,7 @@ sensor5
 Text Label 5900 3850 0    50   ~ 0
 sensor6
 $Comp
-L Device:R_Small R7
+L sensores-rescue:R_Small-Device R7
 U 1 1 5BF1F998
 P 5050 3350
 F 0 "R7" H 5109 3396 50  0000 L CNN
@@ -516,7 +516,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 2850 5050 3250
 $Comp
-L 4xxx:4053 U7
+L sensores-rescue:4053-4xxx U7
 U 1 1 5BF23F0F
 P 8550 4650
 F 0 "U7" H 8550 5728 50  0000 C CNN

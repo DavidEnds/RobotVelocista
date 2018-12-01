@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Module:Arduino_Nano_v3.x U1
+L core-rescue:Arduino_Nano_v3.x-MCU_Module U1
 U 1 1 5BF4DDE4
 P 3950 2400
 F 0 "U1" H 3600 3350 50  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "" H 8550 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R_Small R3
+L core-rescue:R_Small-device R3
 U 1 1 5BF516C0
 P 8550 1550
 F 0 "R3" H 8609 1596 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "~" H 8550 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R4
+L core-rescue:R_Small-device R4
 U 1 1 5BF5188E
 P 8900 1550
 F 0 "R4" H 8959 1596 50  0000 L CNN
@@ -179,7 +179,7 @@ Connection ~ 8550 1700
 Wire Wire Line
 	8550 1700 8550 1650
 $Comp
-L device:R_Small R1
+L core-rescue:R_Small-device R1
 U 1 1 5BF5C75C
 P 7400 1650
 F 0 "R1" H 7459 1696 50  0000 L CNN
@@ -190,7 +190,7 @@ F 3 "~" H 7400 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R2
+L core-rescue:R_Small-device R2
 U 1 1 5BF5C8B8
 P 7750 1650
 F 0 "R2" H 7809 1696 50  0000 L CNN
@@ -201,7 +201,7 @@ F 3 "~" H 7750 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED_Small D4
+L core-rescue:LED_Small-device D4
 U 1 1 5BF5CB11
 P 7400 1950
 F 0 "D4" V 7446 1882 50  0000 R CNN
@@ -212,7 +212,7 @@ F 3 "~" V 7400 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:LED_Small D5
+L core-rescue:LED_Small-device D5
 U 1 1 5BF5CC19
 P 7750 1950
 F 0 "D5" V 7796 1882 50  0000 R CNN
@@ -265,7 +265,7 @@ B1
 Text GLabel 9000 1700 2    31   Input ~ 0
 B2
 $Comp
-L Connector_Generic:Conn_01x08 J2
+L core-rescue:Conn_01x08-Connector_Generic J2
 U 1 1 5BF6E2AD
 P 3950 5950
 F 0 "J2" H 3900 6350 50  0000 L CNN
@@ -276,7 +276,7 @@ F 3 "~" H 3950 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J5
+L core-rescue:Conn_01x08-Connector_Generic J5
 U 1 1 5BF703F5
 P 4400 5950
 F 0 "J5" H 4400 6350 50  0000 C CNN
@@ -385,7 +385,7 @@ M_DER_-
 Text GLabel 3300 6250 0    28   Output ~ 0
 M_DER_+
 $Comp
-L Connector_Generic:Conn_01x02 J3
+L core-rescue:Conn_01x02-Connector_Generic J3
 U 1 1 5BFAC6C5
 P 4350 6650
 F 0 "J3" H 4429 6642 50  0000 L CNN
@@ -396,7 +396,7 @@ F 3 "~" H 4350 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L core-rescue:Conn_01x02-Connector_Generic J4
 U 1 1 5BFAC979
 P 4350 6950
 F 0 "J4" H 4430 6942 50  0000 L CNN
@@ -447,7 +447,7 @@ Wire Notes Line
 Text Notes 3050 5250 0    50   ~ 0
 MOTORES
 $Comp
-L LED:NeoPixel_THT D1
+L core-rescue:NeoPixel_THT-LED D1
 U 1 1 5BFCA810
 P 1250 6650
 F 0 "D1" H 1000 6900 50  0000 L CNN
@@ -458,7 +458,7 @@ F 3 "https://www.adafruit.com/product/1938" H 1350 6275 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J1
+L core-rescue:Conn_01x06-Connector_Generic J1
 U 1 1 5BFCB80B
 P 2100 4350
 F 0 "J1" H 2050 4650 50  0000 L CNN
@@ -469,7 +469,7 @@ F 3 "~" H 2100 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R5
+L core-rescue:R_Small-device R5
 U 1 1 5BFCEB26
 P 5850 6100
 F 0 "R5" H 5909 6146 50  0000 L CNN
@@ -480,7 +480,7 @@ F 3 "~" H 5850 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R6
+L core-rescue:R_Small-device R6
 U 1 1 5BFCECB3
 P 5850 6450
 F 0 "R6" H 5909 6496 50  0000 L CNN
@@ -513,7 +513,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 6000 5850 5850
 $Comp
-L device:D_Small D6
+L core-rescue:D_Small-device D6
 U 1 1 5BFDD5C4
 P 6300 6100
 F 0 "D6" V 6254 6168 50  0000 L CNN
@@ -542,7 +542,7 @@ $EndComp
 Wire Wire Line
 	6300 5850 6300 6000
 $Comp
-L LED:NeoPixel_THT D3
+L core-rescue:NeoPixel_THT-LED D3
 U 1 1 5BFE9C91
 P 2150 6650
 F 0 "D3" H 1900 6900 50  0000 L CNN
@@ -642,7 +642,7 @@ BT_TX
 Text GLabel 1300 4550 0    28   Input ~ 0
 BT_RX
 $Comp
-L device:D_Small D2
+L core-rescue:D_Small-device D2
 U 1 1 5BF7351E
 P 1450 4450
 F 0 "D2" H 1450 4245 50  0000 C CNN
@@ -698,7 +698,7 @@ Wire Wire Line
 Text Notes 700  5950 0    50   ~ 0
 NEOPIXELS
 $Comp
-L device:C_Small C1
+L core-rescue:C_Small-device C1
 U 1 1 5BF95CD1
 P 1500 6300
 F 0 "C1" V 1271 6300 50  0000 C CNN
@@ -709,7 +709,7 @@ F 3 "~" H 1500 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C2
+L core-rescue:C_Small-device C2
 U 1 1 5BF95F64
 P 2400 6300
 F 0 "C2" V 2171 6300 50  0000 C CNN
@@ -808,7 +808,7 @@ LEDS
 Text Notes 8300 1100 0    50   ~ 0
 PULSADORES
 $Comp
-L Connector_Generic:Conn_01x02 J8
+L core-rescue:Conn_01x02-Connector_Generic J8
 U 1 1 5BFCB48F
 P 6550 1450
 F 0 "J8" H 6630 1442 50  0000 L CNN
@@ -819,7 +819,7 @@ F 3 "~" H 6550 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J6
+L core-rescue:Conn_01x03-Connector_Generic J6
 U 1 1 5BFCB6C2
 P 5550 1650
 F 0 "J6" H 5550 1850 50  0000 C CNN
@@ -830,7 +830,7 @@ F 3 "~" H 5550 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J9
+L core-rescue:Conn_01x02-Connector_Generic J9
 U 1 1 5BF59BEA
 P 6550 1750
 F 0 "J9" H 6630 1742 50  0000 L CNN
@@ -911,7 +911,7 @@ Wire Wire Line
 Text GLabel 9550 4350 2    39   Output ~ 0
 STBY_MOT
 $Comp
-L DC-DC_MP2307:DC-DC_BuckModule U2
+L core-rescue:DC-DC_BuckModule-DC-DC_MP2307 U2
 U 1 1 5BF9CA8B
 P 10200 3600
 F 0 "U2" H 10200 3901 39  0000 C CNN
@@ -969,7 +969,7 @@ F 3 "" H 10600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J7
+L core-rescue:Conn_01x06-Connector_Generic J7
 U 1 1 5BF569B8
 P 7500 5450
 F 0 "J7" V 7500 5000 50  0000 L CNN
@@ -1108,7 +1108,7 @@ BT_TX
 Text GLabel 3350 1900 0    39   Output ~ 0
 BT_RX
 $Comp
-L Interface_Expansion:PCF8574 U3
+L core-rescue:PCF8574-Interface_Expansion U3
 U 1 1 5BFDA0BA
 P 6700 4000
 F 0 "U3" H 6400 4600 50  0000 C CNN
@@ -1185,7 +1185,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 4300 7200 4300
 $Comp
-L device:R_Small R8
+L core-rescue:R_Small-device R8
 U 1 1 5C02A571
 P 6100 3400
 F 0 "R8" H 6159 3446 50  0000 L CNN
@@ -1196,7 +1196,7 @@ F 3 "~" H 6100 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R7
+L core-rescue:R_Small-device R7
 U 1 1 5C02A7C3
 P 5950 3400
 F 0 "R7" H 5800 3450 50  0000 L CNN
@@ -1283,7 +1283,7 @@ A1
 Text GLabel 3350 2000 0    39   Output ~ 0
 NEO
 $Comp
-L Connector_Generic:Conn_01x03 J14
+L core-rescue:Conn_01x03-Connector_Generic J14
 U 1 1 5C06B480
 P 8400 5850
 F 0 "J14" H 8350 5650 50  0000 C CNN
@@ -1294,7 +1294,7 @@ F 3 "~" H 8400 5850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J15
+L core-rescue:Conn_01x03-Connector_Generic J15
 U 1 1 5C072223
 P 9350 5850
 F 0 "J15" H 9300 5650 50  0000 C CNN
@@ -1305,7 +1305,7 @@ F 3 "~" H 9350 5850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J16
+L core-rescue:Conn_01x03-Connector_Generic J16
 U 1 1 5C07252F
 P 10300 5850
 F 0 "J16" H 10250 5650 50  0000 C CNN
@@ -1440,7 +1440,7 @@ Wire Notes Line
 Text Notes 7000 5250 0    39   ~ 0
 SENSORES
 $Comp
-L Connector_Generic:Conn_01x03 J10
+L core-rescue:Conn_01x03-Connector_Generic J10
 U 1 1 5C18209A
 P 1150 2450
 F 0 "J10" H 1070 2767 50  0000 C CNN
@@ -1451,7 +1451,7 @@ F 3 "~" H 1150 2450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J11
+L core-rescue:Conn_01x03-Connector_Generic J11
 U 1 1 5C182515
 P 1150 3000
 F 0 "J11" H 1070 3317 50  0000 C CNN
@@ -1462,7 +1462,7 @@ F 3 "~" H 1150 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J12
+L core-rescue:Conn_01x03-Connector_Generic J12
 U 1 1 5C1827FE
 P 1950 2450
 F 0 "J12" H 1870 2767 50  0000 C CNN
@@ -1473,7 +1473,7 @@ F 3 "~" H 1950 2450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J13
+L core-rescue:Conn_01x03-Connector_Generic J13
 U 1 1 5C182954
 P 1950 3000
 F 0 "J13" H 1870 3317 50  0000 C CNN
@@ -1584,7 +1584,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 4200 9800 4200
 $Comp
-L device:Jumper_NO_Small JP1
+L core-rescue:Jumper_NO_Small-device JP1
 U 1 1 5BF9B713
 P 9900 4200
 F 0 "JP1" H 9900 4385 50  0000 C CNN
