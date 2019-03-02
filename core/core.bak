@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L core-rescue:Arduino_Nano_v3.x-MCU_Module U1
 U 1 1 5BF4DDE4
-P 3950 2400
-F 0 "U1" H 3600 3350 50  0000 C CNN
-F 1 "Arduino_Nano_v3.x" H 3350 3450 50  0000 C CNN
-F 2 "Module:Arduino_Nano" H 4100 1450 50  0001 L CNN
-F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 3950 1400 50  0001 C CNN
-	1    3950 2400
+P 4350 4150
+F 0 "U1" H 4000 5100 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 3750 5200 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 4500 3200 50  0001 L CNN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 4350 3150 50  0001 C CNN
+	1    4350 4150
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4050 1400
